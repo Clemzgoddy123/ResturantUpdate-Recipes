@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div><img src="logopng.png" alt="" style="height: 40px; width: 40px;"></div>
+        <div class="menu-toggle" id="toggleMenu">
+          <i class="fas fa-sliders"></i>
+        </div>
+        <ul class="nav-list" id="navList">
+          <li><a href="#"><i class="fas fa-house-chimney"></i>Home</a></li>
+          <li class="dropdown">
+            <a href="#"><i class="fab fa-servicestack"></i>Service <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"> <i class="fas fa-utensils"></i>Food</a></li>
+              <li><a href="#"><i class="fas fa-hotel"></i>Lodge</a></li>
+              <li><a href="#"><i class="fab fa-confluence"></i>Consultation</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fas fa-qrcode"></i>About</a></li>
+          <li><a href="#"><i class="fas fa-phone"></i>Contact</a></li>
+        </ul>
+      </nav>
+      
+    <div class="container" style="margin: 10px 20px;">
+        <h2 style=" word-wrap: break-word; font-family: Bradley Hand ITC; font-size: 20px; text-align: center;" >Welcome to DEFOOD Resturant, Here we serve you the best, you will ever dream of having <br> 
+            We have different varieties of dishes, Just make your order and we take charge</h2>
+            <div class="grid " style="margin: 40px 40px;">
+                <div class="grid1" style="align-items: center;">
+                    <div >
+                        <img src="IMG-20241115-WA0083.jpg" alt="" style="height: 150px; width: 200px; margin-top: 20px; border-radius: 15px;">
+                        <p style="font-size: 15px; font-family: Bradley Hand ITC; font-weight: bolder;">French Rice </p>
+                    </div>
+                      <div >
+                        <img src="IMG-20241115-WA0084.jpg" alt="" style="height: 150px; width: 200px; margin-top: 20px;  border-radius: 15px;">
+                        <p style="font-size: 15px; font-family: Bradley Hand ITC;  font-weight: bolder;">Jellof Rice </p>
+                    </div>
+                      <div>
+                        <img src="IMG-20241115-WA0086.jpg" alt="" style="height: 150px; width: 200px; margin-top: 20px;  border-radius: 15px;">
+                        <p style="font-size: 15px; font-family: Bradley Hand ITC;  font-weight: bolder;">Coconut Rice</p>
+                    </div>
+                    <div>
+                        <img src="IMG-20241115-WA0087.jpg" alt="" style="height: 150px; width: 200px; margin-top: 20px;  border-radius: 15px;">
+                        <p style="font-size: 15px; font-family: Bradley Hand ITC;  font-weight: bolder;  font-weight: bolder;">Ghania cup cake </p>
+                    </div>
+                      <div>
+                        <img src="1mg2.jpg" alt="" style="height: 150px; width: 200px; margin-top: 20px;  border-radius: 15px; ">
+                        <p style="font-size: 15px; font-family: Bradley Hand ITC;  font-weight: bolder;">Frid Rice</p>
+                    </div>
+                      <div>
+                        <img src="1mg4.jpg" alt="" style="height: 150px; width: 200px; margin-top: 20px;  border-radius: 15px;">
+                        <p style="font-size: 15px; font-family: Bradley Hand ITC;  font-weight: bolder;">Korea Rice</p>
+                    </div>
+                    <div>
+                        <img src="IMG-20241115-WA0088.jpg" alt="" style="height: 150px; width: 200px; margin-top: 20px;  border-radius: 15px;">
+                        <p style="font-size: 15px; font-family: Bradley Hand ITC;  font-weight: bolder;">India beef</p>
+                    </div>                      <div>
+                        <img src="download (5).jpeg" alt="" style="height: 150px; width: 200px; margin-top: 20px;  border-radius: 15px;">
+                        <p style="font-size: 15px; font-family: Bradley Hand ITC;  font-weight: bolder;">France Meal</p>
+                    </div>
+                </div>
+           
+            </div>
+    </div>
+    <hr style="background-color: black; height: 5px;">
+    <div class="footer">
+        <div class="footer1">
+            <p style="text-align: center; font-size: larger;">About</p>
+            <p style="word-wrap: break-word; font-family: sans-serif; text-align: center;">DEFOOD is a high class Resturant, made available <br> for both the rich, poor, hungry etc,it main goal is to <br> cure the hunger of the nation</p>
+        </div>
+        <div class="footer2">
+            <p style="text-align: center; font-size: larger;">Contact Us</p>
+            <p style="word-wrap: break-word; font-family: sans-serif; text-align: center;">+2348102888549</p>
+            <p style="word-wrap: break-word; font-family: sans-serif; text-align: center;">+2349051382069</p>
+            <p style="word-wrap: break-word; font-family: sans-serif; text-align: center;">+2349017402529</p>
+        </div>
+        <div class="footer3">
+            <p style="text-align: center; font-size: larger;">Follow Us </p>
+            <p style="word-wrap: break-word; font-family: sans-serif; text-align: center;">Clementchukwu@facebook <i class="fab fa-facebook"></i></p>
+            <p style="word-wrap: break-word; font-family: sans-serif; text-align: center;">JohnRacheal@gmail.com <i class="fab fa-gofore"></i></p>
+            <p style="word-wrap: break-word; font-family: sans-serif; text-align: center;">WHATSAPP@+2348102888549 <i class="fab fa-whatsapp-square"></i></p>
+        </div>
+    </div>
+
+
+
+    <script>
+        const toggle = document.getElementById('toggleMenu');
+        const navList = document.getElementById('navList');
+      
+        toggle.addEventListener('click', () => {
+          navList.classList.toggle('active');
+        });
+      </script>
+      
+</body>
+</html>
